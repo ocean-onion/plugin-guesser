@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plugin-Guesser</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="ai-model.html">AI Model</a></li>
+                <li><a href="data-storage.html">Data Storage</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Welcome to Plugin-Guesser</h1>
+            <p>Our AI model guesses the features of Minecraft plugins based on the uploaded plugin file.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Plugin-Guesser Project</p>
+    </footer>
+
+    <!-- Chatbot Interface -->
+    <div id="chatbot">
+        <div id="chatbot-header">
+            <h3>Chatbot Assistant</h3>
+            <button id="chatbot-close">x</button>
+        </div>
+        <div id="chatbot-body">
+            <div id="chatbot-messages"></div>
+            <input type="text" id="chatbot-input" placeholder="Type a message...">
+            <button id="chatbot-send">Send</button>
+        </div>
+    </div>
+    <button id="chatbot-toggle">Chat</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
